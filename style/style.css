@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'scriptina';
-	src: url('../skrimpod/style/SCRIPALT.tff') format("truetype"),
+	src: url('./style/SCRIPALT.tff') format("truetype"),
 		local('scriptina');
 }
 
