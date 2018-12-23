@@ -1,6 +1,6 @@
 @font-face {
 	font-family: scriptina;
-	src: url('./SCRIPTIN.tff') format("truetype");
+	src: url('/SCRIPTIN.tff') format("truetype");
 }
 
 body, html {
