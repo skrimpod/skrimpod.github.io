@@ -55,12 +55,14 @@ body, html {
 
 }
 
+
 #title-text {
 	font-family: 'Norse-bold';
 	font-size:8vw;
 }
 
 #subtitle-text {
+	font-family: 'Norse-bold';
 	font-size: 2vw;
 }
 
