@@ -55,6 +55,18 @@ body, html {
 
 }
 
+@media (max-width: 320px) {
+	#title-text {
+		font-family: 'Norse-bold';
+		font-size:14vw;
+	}
+
+	#subtitle-text {
+		font-family: 'Norse-bold';
+		font-size: 5vw;
+	}
+}
+
 
 #title-text {
 	font-family: 'Norse-bold';
@@ -65,6 +77,7 @@ body, html {
 	font-family: 'Norse-bold';
 	font-size: 2vw;
 }
+
 
 #nav-text {
 	font-family: 'Norse-bold';
