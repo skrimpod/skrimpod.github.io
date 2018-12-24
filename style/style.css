@@ -67,16 +67,18 @@ body, html {
 	}
 }
 
+@media (min-width: 321px) {
+	#title-text {
+		font-family: 'Norse-bold';
+		font-size:8vw;
+	}
 
-#title-text {
-	font-family: 'Norse-bold';
-	font-size:8vw;
+	#subtitle-text {
+		font-family: 'Norse-bold';
+		font-size: 2vw;
+	}
 }
 
-#subtitle-text {
-	font-family: 'Norse-bold';
-	font-size: 2vw;
-}
 
 
 #nav-text {
