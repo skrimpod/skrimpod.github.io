@@ -1,32 +1,72 @@
 @font-face {
-	font-family: scriptina;
-	src: url('./Rabid_Science.tff') format("truetype");
+    font-family: 'Norse-bold';
+    src: url('Norse-Bold.eot');
+    src: url('Norse-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Norse-Bold.woff2') format('woff2'),
+        url('Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Norse';
+    src: url('Norse.eot');
+    src: url('Norse.eot?#iefix') format('embedded-opentype'),
+        url('Norse.woff2') format('woff2'),
+        url('Norse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body, html {
 	height: 100%;
 	overflow: auto;
-	background-image: url("../content/background.jpg");
-	background-size: auto 100%;
-	background-position: center top;
+}
+
+#navigation {
+	position:relative;
 }
 
 .box{
 	height: 100%;
 	width: 100%;
 	display: flex;
-	position: fixed;
+	position: absolute;
 	align-items: center;
 	justify-content: center;
+	background-image: url("../content/background.jpg");
+	background-size: auto 100%;
+	background-position: center top;
+}
+
+.about-box{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+
 }
 
 .title-div {
 	text-align: center;
-	font-family: scriptina;
 	color:white;
+	font-size: 10vw;
 }
 
-a.nav-link {
+#title-text {
+	font-family: 'Norse-bold';
+	font-size:8vw;
+}
+
+#subtitle-text {
+	font-size: 2vw;
+}
+
+#nav-text {
+	font-family: 'Norse-bold';
 	color: white;
-} !important
+	font-size: 2vw;
+}
 
